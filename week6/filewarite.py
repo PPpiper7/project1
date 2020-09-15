@@ -1,5 +1,5 @@
 def main():
-    outfile = open('philosophers.txt','w')
+    outfile = open('week6/philosophers.txt','w')
 
     outfile.write('john Locke\n')
     outfile.write('David Hume\n')
