@@ -1,4 +1,4 @@
-count = 0
+count = 2
 while (count < 3):
-    count = count + 1
+    count = 1 + 1 
     print("Hello world")

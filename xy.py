@@ -11,4 +11,4 @@ a = x
 x = y
 y = a
 
-print ('x = %d y = %d' %(x,y))
+print ('x = %.2f y = %.2f' %(x,y))
