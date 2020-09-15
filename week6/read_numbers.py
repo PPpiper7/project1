@@ -1,5 +1,5 @@
 def main():
-    infile = open('numbers.txt','r')
+    infile = open('week6/numbers.txt','r')
     
     num1 = int(infile.readline())
     num2 = int(infile.readline())

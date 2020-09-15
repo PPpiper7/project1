@@ -4,7 +4,7 @@ def main():
     name2 = input('Friends #2: ')
     name3 = input('Friends #3: ')
 
-    myfile = open('friends.txt','w')
+    myfile = open('week6/friends.txt','w')
 
     myfile.write(name1 + '\n')
     myfile.write(name2 + '\n')

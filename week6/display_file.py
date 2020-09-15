@@ -3,7 +3,7 @@ def main():
 
     try:
 
-        infile = open(filename, 'r')
+        infile = open('week6/'+filename, 'r')
 
         contens = infile.read()
 
@@ -13,6 +13,6 @@ def main():
 
     except IOError:
         print('An error occurred trying to read')
-        print('the file',filename)
+        print('the file','week6/'+filename)
 
 main() 

@@ -2,7 +2,7 @@ def main():
     num_emps = int(input('How many employee records ' + \
         'do you want to create? '))
 
-    emp_file = open('employees.txt','w')
+    emp_file = open('week6/employees.txt','w')
 
     for count in range(1,num_emps + 1):
         print('Enter data for employee #',count,sep='')

@@ -1,7 +1,7 @@
 def main():
     num_days = int(input('For how many days do ' +\
         'you have sales? '))
-    sales_file = open('sales.txt','w')
+    sales_file = open('week6/sales.txt','w')
 
     for count in range(1,num_days + 1):
         sales = float(input('Enter the sales for day #' + \
