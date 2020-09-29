@@ -2,7 +2,7 @@ even_numbers = [2,4,6,8,10]
 heroes = ['Ironman','Thor','Hulk','Spiderman']
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
-print(numbers[-5:])
+print(numbers[::-1])
 numbers[8] = 99
 print(numbers)
 
