@@ -10,7 +10,7 @@ def main():
 
         again = input('Enter more data? (y/n): ')
 
-        output_file.close()
+    output_file.close()
 
 def save_data(file):
     person = {}
